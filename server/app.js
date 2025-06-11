@@ -21,7 +21,7 @@ const transporter = nodemailer.createTransport({
 
 // Serve HTML
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'templates', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'index.html'));
 });
 
 // Handle form submission
